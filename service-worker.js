@@ -29,7 +29,7 @@ workbox.precaching.precacheAndRoute([
     { url: '/img/img512.png', revision: '1' },
     { url: '/img/logo192.png', revision: '1' },
 ],{
-  ignoreURLParametersMatching: [/.*/]
+    ignoreUrlParametersMatching: [/.*/]
 });
 
 workbox.routing.registerRoute(
